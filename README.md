@@ -1,5 +1,7 @@
 # ember-cli-lolex
 
+[![Build Status](https://travis-ci.org/pfmmfp/ember-cli-lolex.svg?branch=master)](https://travis-ci.org/pfmmfp/ember-cli-lolex)
+
 An ember addon for using lolex
 
 ## Installation
