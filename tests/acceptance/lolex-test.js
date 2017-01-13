@@ -5,11 +5,15 @@ import lolex from 'lolex';
 moduleForAcceptance('Acceptance | lolex');
 
 test('visiting /', function(assert) {
+  const fakeTimer = lolex.install(),
+    done = assert.async();
   visit('/');
-
-  andThen(function() {
-    assert.equal(currentURL(), '/');
-    let fakeTimer = lolex.install();
-    fakeTimer.uninstall();
-  });
+  fakeTimer.next();
+  assert.equal(currentURL(), '/');
+  click('button');
+  assert.equal(find('.finished').text().trim(), 'false', 'the timer has not finished');
+  fakeTimer.tick(5010);
+  assert.equal(find('.finished').text().trim(), 'true', 'the timer has finished');
+  fakeTimer.uninstall();
+  done();
 });
