@@ -1,13 +1,13 @@
-# ember-cli-lolex
+# ember-cli-lolex-shim
 
-[![Build Status](https://travis-ci.org/pfmmfp/ember-cli-lolex.svg?branch=master)](https://travis-ci.org/pfmmfp/ember-cli-lolex)
+[![Build Status](https://travis-ci.org/pfmmfp/ember-cli-lolex-shim.svg?branch=master)](https://travis-ci.org/pfmmfp/ember-cli-lolex-shim)
 
 An ember addon for using lolex
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ember-cli-lolex`
+* `cd ember-cli-lolex-shim`
 * `npm install`
 * `bower install`
 
