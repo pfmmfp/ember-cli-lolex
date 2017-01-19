@@ -6,10 +6,6 @@ module.exports = {
   included: function included(app) {
     this._super.included(app);
     app.import(app.bowerDirectory + '/lolex/lolex.js');
-    app.import('vendor/shims.js', {
-      exports: {
-        lolex: ['default']
-      }
-    });
+    app.import('vendor/shims/lolex.js', { type: 'test' });
   }
 };
