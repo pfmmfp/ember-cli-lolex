@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-lolex-shim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "lolex shim for ember tests",
   "keywords": [
     "ember-addon",
