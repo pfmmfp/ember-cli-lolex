@@ -1,17 +1,24 @@
 {
   "name": "ember-cli-lolex-shim",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "lolex shim for ember tests",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "sinon",
+    "lolex",
+    "testing",
+    "timers"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Cruz Fernandez & Pablo Morra",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfmmfp/ember-cli-lolex-shim.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
