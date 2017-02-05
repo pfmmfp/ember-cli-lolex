@@ -1,6 +1,7 @@
 # ember-cli-lolex-shim
 
 [![Build Status](https://travis-ci.org/pfmmfp/ember-cli-lolex-shim.svg?branch=master)](https://travis-ci.org/pfmmfp/ember-cli-lolex-shim)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-cli-lolex-shim.svg)](https://emberobserver.com/addons/ember-cli-lolex-shim)
 
 An ember addon for using [lolex](https://github.com/sinonjs/lolex) fake timer in your tests.
 
